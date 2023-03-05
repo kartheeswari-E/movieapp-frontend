@@ -1,38 +1,105 @@
-.App {
+/* .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Profile_pic{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.pic{
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+} */
+.films-container {
+    border-radius: 7px;
+   width: 340px;
+     height: min-content;
+   }
+   
+   .films-specs {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+   }
+   
+   .films-poster {
+     width:100%;
+     height: 500px;
+     object-fit: cover;
+     object-position: top;
+   }
+   
+   .films-name {
+     font-size: 24px;
+     margin: 0;
+   }
+   
+   .films-summary {
+     margin-top: 0;
+   }
+   
+   .films-rating {
+     font-size: 18px;
+   }
+   
+   .films-list-container {
+     display: flex;
+     gap: 16px;
+     width: fit-content;
+     flex-wrap: wrap;
+     justify-content: space-around;
+   }
+   .sample22{
+   display:flex;
+   gap:6px;
+   }
+   .sample> button{
+     font-size:x-small;
+   }
+   .add-movie-form{
+     
+     display: flex;
+     flex-direction: column;
+     
+     max-width: 650px;
+     margin: 0px auto;
+     gap: 20px;
+     }
+     .color-movie-form{
+     
+       display: flex;
+       flex-direction: column;
+       max-width: 450px;
+       margin: 0px auto ;
+       gap: 16px;
+       }
+   
+     body{
+       font-family: Roboto,sans-serif;
+       
+     }
+     .route-container{
+       padding:30px;
+       
+     }
+     .films-details-container{
+       max-width: fit-content;
+       padding:16px;
+     }
+     .color-button{
+       height:40px;
+       font-size: large;
+       border-radius: 20px;
+       cursor: pointer;
+     }
+     .color-button:hover{
+       color: red;
+       
+     }
+     
