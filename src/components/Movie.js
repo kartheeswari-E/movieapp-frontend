@@ -12,7 +12,7 @@ import {  useNavigate} from 'react-router-dom';
 
  export function Movie({ movie ,id,deleteButton,EditButton}) {
   const navigate=useNavigate();
-  let [toggle, setToggle] = useState(false);
+  let [toggle, setToggle] = useState(true);
   let changes = {
     color: movie.rating >= 8.5 ? "green" : "red"
   };
