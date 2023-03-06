@@ -1,1 +1,1 @@
- export const API =`https://movie-app-back-akf6.vercel.app`;
+ export const API =`https://movie-backend-mf5y.onrender.com`;
