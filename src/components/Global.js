@@ -1,1 +1,1 @@
- export const API =`https://moviee-app.onrender.com`;
+ export const API =`https://movie-backend-mf5y.onrender.com`;
