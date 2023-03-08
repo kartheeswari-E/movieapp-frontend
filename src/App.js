@@ -6,7 +6,6 @@ import { NotFound } from './components/NotFound';
 import { Home } from './components/Home';
 import { AddMovie } from './components/AddMovie';
 import { MovieList } from './components/MovieList';
-import { AddColor } from './components/AddColor';
 import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import Button from '@mui/material/Button';
@@ -60,7 +59,6 @@ function App() {
         <Route path="/movies/edit/:id" element={<EditMovies /> } />
         <Route path="/basicform" element={<BasicForm /> } />
         <Route path="/addmovie" element={<AddMovie /> } />
-        <Route path="/colorgame" element={<AddColor /> } />
         <Route path="*" element={<NotFound /> } />
         
       </Routes>
