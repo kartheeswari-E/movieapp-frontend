@@ -40,8 +40,6 @@ function App() {
         color="inherit">Movies</Button>
         <Button  onClick={()=>navigate("/addmovie")}
         color="inherit">Add Movies</Button>
-        <Button  onClick={()=>navigate("/colorgame")}
-        color="inherit">Colour game</Button>
         <Button  
         sx={{marginLeft:"auto"}}
         startIcon={mode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
